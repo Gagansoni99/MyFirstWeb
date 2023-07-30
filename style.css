@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: rgb(27, 95, 213);
+}
+p{
+    color: rgb(62, 60, 60);
+}
+
+.container{
+   width: 1080px;
+   margin: 0 auto;
+}
+
+.btn{
+   font-size: 1rem;
+   color: white;
+   margin: 20px 0;
+   padding: 10px 20px;
+   background: blue;
+   transition: 0.9;
+}
+
+.btn:hover{
+   background: white;
+   color:blue ;
+}
+ /* nav  */
+ nav{
+    width: 100%;
+    height: 90px;
+    background: rgb(27, 95, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+ }
+ nav .logo{
+    width: 100px;
+ }
+
+ nav .logo img{
+    width: 100%;
+ }
+
+ nav .link ul{
+    display: flex;
+    
+ }
+
+ nav .link ul li a{
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+ }
+
+ nav .link ul li a:hover{
+    background: white;
+    color: rgb(27, 95, 213);
+    border-radius: 10px;
+ }
+
+ /* home  */
+
+.home{
+   width: 100%;
+   height: 90vh;
+}
+
+ .sub-home{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/295826/pexels-photo-295826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ .home h1{
+    font-size: 4rem;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+ }
+
+
+ /* service  */
+
+ .service{
+   width: 100%;
+   height: 40%;
+ background-image: url('https://images.pexels.com/photos/17644374/pexels-photo-17644374/free-photo-of-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  padding: 2rem 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ .box{
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .box img{
+   width: 100%;
+   transition: 0.3s ease-in;
+ }
+
+ .box img:hover{
+   transform: translateY(20px);
+ }
+
+ /* project  */
+ .project{
+   width: 100%;
+   height: 40%;
+   background: rgb(192, 255, 192);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  padding: 2rem 20px;
+  margin: 20px 0;
+ }
+
+ .box{
+   width: 200px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .box img{
+   width: 100%;
+ }
+
+
+ /* feature  */
+
+ .feature{
+   width: 100%;
+   height: 90vh;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,53,9,1) 50%, rgba(0,212,255,1) 100%);
+ }
+
+ .feature h1{
+   text-align: center;
+   font-size: 2rem;
+   color: white;
+   letter-spacing: 2px;
+
+ }
+
+
+ .container1{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 50px 0;
+ }
+
+ .container1 .left{
+   width: 40%;
+
+ }
+
+ .container1 .left img{
+   width: 100%;
+   border: 5px solid white;
+   border-radius: 10px;
+ }
+
+
+ .container1 .right{
+   width: 50%;
+   padding: 10px;
+   height: 250px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: flex-start;
+
+  
+ }
+
+ .container1 .right h2{
+   color: white;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin: 10px 0;
+ }
+
+ .container1 .right p{
+   color: rgb(87, 82, 82);
+   letter-spacing: 2px;
+ }
+
+
+ 
+ footer {
+   background-color: #3498db;
+   color: #ffffff;
+   padding: 20px;
+   text-align: center;
+ }
+
+ footer a {
+   color: #ffffff;
+   text-decoration: none;
+   margin: 0 10px;
+ }
+
+ footer a:hover {
+   color: #ffd700; 
+   /* Change the hover color to your preference */
+ }
